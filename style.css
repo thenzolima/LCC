@@ -36,6 +36,8 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 header>h4{
     font-size: max(2.5vw, 24px);
@@ -46,8 +48,6 @@ header>h1{
 header>p{
     color: #E3E3E3;
     font-size: max(2vw, 18px);
-    padding-left: 4%;
-    padding-right: 4%;
 }
 
 article{
@@ -99,6 +99,10 @@ footer{
     gap:20px;
 }
 
+footer>h2{
+    padding-left: 5%;
+    padding-right: 5%;
+}
 .footer-button{
     background-color: #0C0C0C;
     border:none;
