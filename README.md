@@ -1,4 +1,4 @@
-![Header](midias/Header.png)
+![Header](midias/header.png)
 
 Essa ideia surgiu a partir de um trabalho de História no Campus onde estudo. Escolhi fazer um site para tornar o conteúdo de fácil acesso, aleḿ de interagir com minha especialização técnica (Informática).
 
