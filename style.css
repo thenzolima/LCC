@@ -1,4 +1,4 @@
-@import url(https://fonts.bunny.net/css?family=archivo:300,400,700);
+@import url(https://fonts.bunny.net/css?family=archivo:300,400,500,600,700);
 
 :root{
     --principal: #e53935;
@@ -15,11 +15,10 @@
 }
 
 html{
-    background-color: #0C0C0C;
-
+    background-color:var(--bg);
 }
 
-h1,h2,h3,h4,h5,h6{
+h1,h2,h3,h4,h5,h6,p{
     font-family: 'Archivo',sans-serif;
     margin: 0;
     color: #fff;
@@ -29,33 +28,25 @@ h3{
     font-weight: 400;
 }
 
-p{
-    font-family: 'Archivo',sans-serif;
-    color: #fff;
-}
-
 b{
     color: var(--principal);
 }
 header{
-    padding-bottom: 0px;    
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-left: 5%;
-    padding-right: 5%;
 }
 header>h4{
-    font-size: max(2.5vw, 24px);
+    font-size: max(2.2vw, 24px);
 }
 header>h1{
     font-size: max(4vw, 34px);
 }
-
-header>h3{
-    color: var(--gray);
+header>p{
+    color: #E3E3E3;
+    font-size: max(1.8vw, 18px);
 }
 
 article{
@@ -96,6 +87,11 @@ hgroup> h2{
     color: var(--principal);
 }
 
+hgroup>h3{
+    font-family: 'Archivo',sans-serif;
+    color: var(--gray);
+}
+
 footer{
     text-align: center;
     width: 100%;
@@ -111,14 +107,29 @@ footer>h2{
     padding-left: 5%;
     padding-right: 5%;
 }
-.footer-button{
-    font-family: 'Archivo',sans-serif;
+
+footer>p{
+    padding-bottom: 2%;
+}
+
+.link-button{
+    width: auto;
+    padding: 15px;
+    font-size: 20px;
     background-color: var(--bg);
-    border:none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    text-decoration: none;
     transition:all 0.3s ease;
 }
 
-.footer-button:hover{background-color:#161616;}
+.link-button:hover{background-color:#161616;}
 
 @media (max-width: 768px){
     .cell>a>img{
