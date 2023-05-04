@@ -2,6 +2,9 @@
 
 :root{
     --principal: #e53935;
+    --bg: #0C0C0C;
+    --article: #0F0F0F;
+    --gray: #E3E3E3;
 }
 
 *{
@@ -50,13 +53,13 @@ header>h4{
 header>h1{
     font-size: max(4vw, 34px);
 }
-header>p{
-    color: #E3E3E3;
-    font-size: max(2vw, 18px);
+
+header>h3{
+    color: var(--gray);
 }
 
 article{
-    background-color: #0F0F0F;
+    background-color: var(--article);
 }
 
 .grid{
@@ -110,9 +113,12 @@ footer>h2{
 }
 .footer-button{
     font-family: 'Archivo',sans-serif;
-    background-color: #0C0C0C;
+    background-color: var(--bg);
     border:none;
+    transition:all 0.3s ease;
 }
+
+.footer-button:hover{background-color:#161616;}
 
 @media (max-width: 768px){
     .cell>a>img{
