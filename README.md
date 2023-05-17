@@ -12,7 +12,7 @@ O site é um projeto em desenvolvimento, ou seja, pretendo implementar mais cont
 
 ### Referências
 
-[A indústria cinematográfica nacional em tempos de ditadura militar](https://drive.google.com/file/d/1yPdd0ZvyBKfL_R1R2g0NO6i2zLUzB_LB/view?usp=sharing)
+[A indústria cinematográfica nacional em tempos de ditadura militar](http://seer.upf.br/index.php/rjd/article/download/5587/3802/)
 
 [Arthur Tuoto](https://arthurtuoto.com/2021/09/19/10filmes-cinema-marginal/)
 
