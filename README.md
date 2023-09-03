@@ -2,11 +2,13 @@
 
 Essa ideia surgiu a partir de um trabalho de História no Campus onde estudo. Escolhi fazer um site para tornar o conteúdo de fácil acesso, aleḿ de interagir com minha especialização técnica (Informática).
 
-Seu propósito é mostrar mais do mercado cinematográfico do período, que teve grande importância histórica como resistência cultural e política ao regime, mas é pouco falado nos dias de hoje.
+Seu propósito é mostrar mais do cenário cinematográfico do período, que teve grande importância histórica como resistência cultural e política ao regime.
+
+Importante ressaltar que cada vez mais nos dias de hoje, essas obras vem ganhando destaque como referências de produção e direção.
 
 Para desenvolver o site, utilizei o [Pico.css](https://picocss.com) como framework principal e o [Flickity](https://flickity.metafizzy.co/) para os sliders.
 
-O site é um projeto em desenvolvimento, ou seja, pretendo implementar mais conteúdos e funcionalidades ao site.
+O site está em desenvolvimento. Portanto, ainda pretendo implementar novos conteúdos e funcionalidades ao projeto.
 
 ---
 
