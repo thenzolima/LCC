@@ -18,14 +18,15 @@ html{
     background-color:var(--bg);
 }
 
+body{
+    padding-right:1.5rem;
+    padding-left: 1.5rem;
+}
+
 h1,h2,h3,h4,h5,h6,p{
     font-family: 'Archivo',sans-serif;
     margin: 0;
     color: #fff;
-}
-
-h3{
-    font-weight: 400;
 }
 
 b{
@@ -37,20 +38,28 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-header>h4{
-    font-size: max(2.2vw, 24px);
-}
-header>h1{
-    font-size: max(4vw, 34px);
-}
-header>p{
-    color: #E3E3E3;
-    font-size: max(1.8vw, 18px);
+    padding-bottom: 0px;
+    gap: 10px;
 }
 
-article{
+header>h1{
+    font-size: 4rem;
+    line-height: 1;
+}
+
+header>h3{
+    font-size: 2rem;
+}
+
+header>p{
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.cinema{
+    margin-top: 0px;
     background-color: var(--article);
+    border-radius: 10px;
 }
 
 .grid{
@@ -77,6 +86,7 @@ article{
 
 .cell>a>img{
     width: 250px;
+    border-radius: 5px;
 }
 
 hgroup{
@@ -92,7 +102,7 @@ hgroup>h3{
     color: var(--gray);
 }
 
-footer{
+.footer{
     text-align: center;
     width: 100%;
     background-color: var(--principal);
@@ -101,15 +111,8 @@ footer{
     align-items: center;
     justify-content: center;
     gap:20px;
-}
-
-footer>h2{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-footer>p{
-    padding-bottom: 2%;
+    margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .link-button{
@@ -133,6 +136,16 @@ footer>p{
 
 @media (max-width: 768px){
     .cell>a>img{
-        width: 200px;
+        width: 175px;
     }
+    header>h1{
+        font-size: 2rem;
+    }
+    header>h3{
+        font-size: 1.5rem;
+    }
+    header>p{
+        font-size: 1.2rem;
+    }
+    
 }
