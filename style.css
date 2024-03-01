@@ -36,21 +36,20 @@ header{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding-bottom: 0px;
     gap: 10px;
 }
 
-header>h1{
-    font-size: 4rem;
+header > h1 {
+    font-size: 4vw; /* Usando vw (viewport width) para tornar o tamanho do texto proporcional à largura da tela */
     line-height: 1;
 }
 
-header>h3{
-    font-size: 2rem;
+header > h3 {
+    font-size: 2vw; /* Também usando vw para tornar o tamanho do texto proporcional */
 }
 
-header>p{
-    font-size: 2rem;
+header > p {
+    font-size: 2vw; /* Fonte relativa ao tamanho da tela */
     font-weight: 500;
 }
 
@@ -120,6 +119,12 @@ header>p{
     }
     header>p{
         font-size: 1.2rem;
+    }
+
+    .grid{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
     }
 
     .footer{
